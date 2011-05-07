@@ -7,6 +7,7 @@
                 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true&amp;language=sv"></script>
+		<link rel="stylesheet" title="snow" href="/snow.css">
 		<style type="text/css" media="screen">
 			#map{
 				width:200px;
@@ -14,21 +15,19 @@
 				margin:10px;
 			}
 		</style>
-		<script type="text/javascript">
-				    var _gaq = _gaq || [];
-				    _gaq.push(['_setAccount', 'UA-4080284-1']);
-				    _gaq.push(['_trackPageview']);
-
-				    (function() {
-				        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
-				    })();
-				</script>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0;">
+		<script> 
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-22732942-1']);
+			_gaq.push(['_trackPageview']);
+			(function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);})();
+		</script>
 </head>
 <body>
-	<h1 aria-live="assertive">Hämtar tempratur och position…</h1>
-	<a href="info.htm">Vem har gjort detta? och varför?</a>
+	<header>
+		<h1 aria-live="assertive">Hämtar tempratur och position…</h1>	
+	</header>
+	<p><a href="info.htm">Vem har gjort detta? och varför?</a></p>
 	<div id="map"></div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"> </script>
 <script>
