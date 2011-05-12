@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="sv">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Tillgängligare chips valuta</title>
+	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  	<title>Tillgängligare chips valuta</title>
 	<style type="text/css" media="screen">
 	html{
 	font-family:arial;
@@ -41,6 +41,14 @@
 	margin:10px 0 0 10px;
 	font-size:1.8em;
 	}
+	footer{
+	margin:70px 0;
+	display:block;
+	}
+	footer p{
+	color:#666;
+	font-size:small;
+	}
 	</style>
 	<script> 
 		var _gaq = _gaq || [];
@@ -60,6 +68,9 @@
 		<button id="convert"> Omvandla nu</button>
 		<p id="result" aria-live="assertive"></p>
 	</fieldset>
+	<footer role="contentinfo">
+		<p>Detta är bara en tillgängligare variant av <a href="http://chipsvaluta.se/">orginalet!</a></p>
+	</footer>
   	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
 	<script>
 		$(function () {
