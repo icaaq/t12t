@@ -42,8 +42,8 @@
 	font-size:1.8em;
 	}
 	footer{
-	margin:70px 0;
-	display:block;
+	position:absolute;
+	top:380px;
 	}
 	footer p{
 	color:#666;
